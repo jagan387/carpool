@@ -1,0 +1,200 @@
+/*
+ * CSS for the different(4) tablesorters present, all are same for now. Just duplicating data
+ *
+ */
+ 
+/* ============================
+    ViewPools tablesorter CSS
+=============================*/
+table#viewPools {
+	font-family:arial;
+	background-color:#CDCDCD;
+	margin:10px 0pt 15px;
+	font-size:8pt;
+	text-align:left;
+}
+
+table#viewPools thead tr th, table#viewPools tfoot tr th {
+	background-color:#e6EEEE;
+	border:1px solid #FFF;
+	font-size:8pt;
+	padding:4px;
+}
+
+table#viewPools thead tr .header {
+	background-image:url(images/bg.gif);
+	background-repeat:no-repeat;
+	background-position:center right;
+	cursor:pointer;
+    font-weight:bold;
+}
+
+table#viewPools tbody td {
+	color:#3D3D3D;
+	padding:4px;
+	background-color:#FFF;
+	vertical-align:middle;
+}
+
+table#viewPools tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+table#viewPools thead tr .headerSortUp {
+	background-image:url(images/asc.gif);
+}
+
+table#viewPools thead tr .headerSortDown {
+	background-image:url(images/desc.gif);
+}
+
+table#viewPools thead tr .headerSortDown, table#viewPools thead tr .headerSortUp {
+    background-color:#8dbdd8;
+}
+
+/* ============================
+    OwnedPools tablesorter CSS
+=============================*/
+table#ownedPools {
+	font-family:arial;
+	background-color:#CDCDCD;
+	margin:10px 0pt 15px;
+	font-size:8pt;
+	text-align:left;
+}
+
+table#ownedPools thead tr th, table#ownedPools tfoot tr th {
+	background-color:#e6EEEE;
+	border:1px solid #FFF;
+	font-size:8pt;
+	padding:4px;
+}
+
+table#ownedPools thead tr .header {
+	background-image:url(images/bg.gif);
+	background-repeat:no-repeat;
+	background-position:center right;
+	cursor:pointer;
+    font-weight:bold;
+}
+
+table#ownedPools tbody td {
+	color:#3D3D3D;
+	padding:4px;
+	background-color:#FFF;
+	vertical-align:middle;
+}
+
+table#ownedPools tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+table#ownedPools thead tr .headerSortUp {
+	background-image:url(images/asc.gif);
+}
+
+table#ownedPools thead tr .headerSortDown {
+	background-image:url(images/desc.gif);
+}
+
+table#ownedPools thead tr .headerSortDown, table#ownedPools thead tr .headerSortUp {
+    background-color:#8dbdd8;
+}
+
+/* =============================
+    JoinedPools tablesorter CSS
+==============================*/
+table#joinedPools {
+	font-family:arial;
+	background-color:#CDCDCD;
+	margin:10px 0pt 15px;
+	font-size:8pt;
+	text-align:left;
+}
+
+table#joinedPools thead tr th, table#joinedPools tfoot tr th {
+	background-color:#e6EEEE;
+	border:1px solid #FFF;
+	font-size:8pt;
+	padding:4px;
+}
+
+table#joinedPools thead tr .header {
+	background-image:url(images/bg.gif);
+	background-repeat:no-repeat;
+	background-position:center right;
+	cursor:pointer;
+    font-weight:bold;
+}
+
+table#joinedPools tbody td {
+	color:#3D3D3D;
+	padding:4px;
+	background-color:#FFF;
+	vertical-align:middle;
+}
+
+table#joinedPools tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+table#joinedPools thead tr .headerSortUp {
+	background-image:url(images/asc.gif);
+}
+
+table#joinedPools thead tr .headerSortDown {
+	background-image:url(images/desc.gif);
+}
+
+table#joinedPools thead tr .headerSortDown, table#joinedPools thead tr .headerSortUp {
+    background-color:#8dbdd8;
+}
+
+/* ============================
+    ViewVehicles tablesorter CSS
+=============================*/
+table#viewVehicles {
+	font-family:arial;
+	background-color:#CDCDCD;
+	margin:10px 0pt 15px;
+	font-size:8pt;
+	text-align:left;
+}
+
+table#viewVehicles thead tr th, table#viewVehicles tfoot tr th {
+	background-color:#e6EEEE;
+	border:1px solid #FFF;
+	font-size:8pt;
+	padding:4px;
+}
+
+table#viewVehicles thead tr .header {
+	background-image:url(images/bg.gif);
+	background-repeat:no-repeat;
+	background-position:center right;
+	cursor:pointer;
+    font-weight:bold;
+}
+
+table#viewVehicles tbody td {
+	color:#3D3D3D;
+	padding:4px;
+	background-color:#FFF;
+	vertical-align:middle;
+}
+
+table#viewVehicles tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+table#viewVehicles thead tr .headerSortUp {
+	background-image:url(images/asc.gif);
+}
+
+table#viewVehicles thead tr .headerSortDown {
+	background-image:url(images/desc.gif);
+}
+
+table#viewVehicles thead tr .headerSortDown, table#viewVehicles thead tr .headerSortUp {
+    background-color:#8dbdd8;
+}

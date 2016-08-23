@@ -1,0 +1,180 @@
+/*
+ * CSS for the different(4) pagers present, all are same for now. Just duplicating data
+ *
+ */
+ 
+/* =======================
+    ViewPools pager CSS
+========================*/
+#viewPoolsPager {
+	padding:10px 0 10px 0;
+	background-color:#D6D2C2;
+	text-align:center;
+    position:fixed;
+    left:50%;
+    width:30em;
+    margin-left:-15em; /*set to a negative number 1/2 of your width*/
+    border:1px solid #ccc;
+    background-color:#f3f3f3;
+    vertical-align:middle;
+}
+
+#viewPoolsPager span {
+	padding:0 5px 0 5px;
+    vertical-align:middle;
+}
+
+#viewPoolsPager input.prev {
+	width:auto;
+	margin-right:10px;
+}
+
+#viewPoolsPager input.next {
+	width:auto;
+	margin-left:10px;
+}
+
+#viewPoolsPager input,select {
+	width:50px;
+	text-align:center;
+    border-radius:10px;
+    padding:2px;
+    height:25px;
+    vertical-align:middle;
+}
+
+#viewPoolsPager img {
+    vertical-align:middle;
+}
+
+/* =======================
+    OwnedPools pager CSS
+========================*/
+#ownedPoolsPager {
+	padding:10px 0 10px 0;
+	background-color:#D6D2C2;
+	text-align:center;
+    position:fixed;
+    left:50%;
+    width:30em;
+    margin-left:-15em; /*set to a negative number 1/2 of your width*/
+    border:1px solid #ccc;
+    background-color:#f3f3f3;
+    vertical-align:middle;
+}
+
+#ownedPoolsPager span {
+	padding:0 5px 0 5px;
+    vertical-align:middle;
+}
+
+#ownedPoolsPager input.prev {
+	width:auto;
+	margin-right:10px;
+}
+
+#ownedPoolsPager input.next {
+	width:auto;
+	margin-left:10px;
+}
+
+#ownedPoolsPager input,select {
+	width:50px;
+	text-align:center;
+    border-radius:10px;
+    padding:2px;
+    height:25px;
+    vertical-align:middle;
+}
+
+#ownedPoolsPager img {
+    vertical-align:middle;
+}
+
+/* =======================
+    JoinedPools pager CSS
+========================*/
+#joinedPoolsPager {
+	padding:10px 0 10px 0;
+	background-color:#D6D2C2;
+	text-align:center;
+    position:fixed;
+    left:50%;
+    width:30em;
+    margin-left:-15em; /*set to a negative number 1/2 of your width*/
+    border:1px solid #ccc;
+    background-color:#f3f3f3;
+    vertical-align:middle;
+}
+
+#joinedPoolsPager span {
+	padding:0 5px 0 5px;
+    vertical-align:middle;
+}
+
+#joinedPoolsPager input.prev {
+	width:auto;
+	margin-right:10px;
+}
+
+#joinedPoolsPager input.next {
+	width:auto;
+	margin-left:10px;
+}
+
+#joinedPoolsPager input,select {
+	width:50px;
+	text-align:center;
+    border-radius:10px;
+    padding:2px;
+    height:25px;
+    vertical-align:middle;
+}
+
+#joinedPoolsPager img {
+    vertical-align:middle;
+}
+
+/* =======================
+    ViewVehicles pager CSS
+========================*/
+#viewVehiclesPager {
+	padding:10px 0 10px 0;
+	background-color:#D6D2C2;
+	text-align:center;
+    position:fixed;
+    left:50%;
+    width:30em;
+    margin-left:-15em; /*set to a negative number 1/2 of your width*/
+    border:1px solid #ccc;
+    background-color:#f3f3f3;
+    vertical-align:middle;
+}
+
+#viewVehiclesPager span {
+	padding:0 5px 0 5px;
+    vertical-align:middle;
+}
+
+#viewVehiclesPager input.prev {
+	width:auto;
+	margin-right:10px;
+}
+
+#viewVehiclesPager input.next {
+	width:auto;
+	margin-left:10px;
+}
+
+#viewVehiclesPager input,select {
+	width:50px;
+	text-align:center;
+    border-radius:10px;
+    padding:2px;
+    height:25px;
+    vertical-align:middle;
+}
+
+#viewVehiclesPager img {
+    vertical-align:middle;
+}
