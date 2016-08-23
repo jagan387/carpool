@@ -1,0 +1,11 @@
+=================================
+#Triggers for created_on, updated_on for users table
+
+DELIMITER ;;
+DROP trigger if exists trigger_users_insert;;
+CREATE trigger trigger_users_insert BEFORE INSERT ON users FOR EACH ROW BEGIN SET NEW.created_on=IF(ISNULL(NEW.created_on) OR NEW.created_on='0000-00-00 00:00:00', CURRENT_TIMESTAMP, IF(NEW.created_on<CURRENT_TIMESTAMP, NEW.created_on, CURRENT_TIMESTAMP));SET NEW.updated_on=NEW.created_on; END;;
+
+DELIMITER ;
+DROP trigger if exists trigger_users_update;
+CREATE trigger trigger_users_update BEFORE UPDATE ON users FOR EACH ROW SET NEW.updated_on=IF(NEW.updated_on<OLD.updated_on, OLD.updated_on, CURRENT_TIMESTAMP);
+==================================
